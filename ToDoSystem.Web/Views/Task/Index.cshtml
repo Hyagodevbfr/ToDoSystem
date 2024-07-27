@@ -1,0 +1,114 @@
+﻿@using ToDoSystem.Enums
+@model IEnumerable<ToDoSystem.Web.Models.Task.TaskViewModel>
+
+@{
+    ViewData["Title"] = "Tarefas";
+}
+
+<h1 class="container d-flex justify-content-center">Lista de tarefas</h1>
+<div class="container" style="width: 75%;">
+    <hr />
+
+    <p>
+        <a asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle p-1"></i>Criar tarefa</a>
+    </p>
+    <table class="table table-hover" id="table">
+        <thead>
+            <tr>
+                <th>
+                    Tarefa
+                </th>
+
+                <th>
+                    Status
+                </th>
+                <th>
+                    Concluída
+                </th>
+                <th>
+                    Criada em
+                </th>
+                <th>
+                    Concluida em
+                </th>
+                <th>
+                    Opções
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Count( ) > 0)
+            {
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+
+
+                        @if(item.Status == StatusTask.ToDo)
+                        {
+                            <td>A fazer</td>
+                        }
+                        else if(item.Status == StatusTask.InProgress)
+                        {
+                            <td>Prosseguindo</td>
+                        }
+                        else if(item.Status == StatusTask.Concluded)
+                        {
+                            <td>Concluída</td>
+                        }
+
+                        <td style="text-align:center;">
+                            @if(item.IsCompleted)
+                            {
+                                <span class="completed-checkbox-wrapper">&#x2705;</span>
+                            }
+                            else
+                            {
+                                <input type="checkbox" disabled="disabled" />
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreatedAt)
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CompletedAt)
+                        </td>
+
+                        <td style="width:180px; height:65.5px; justify-content:space-around; align-items:center; align-content:center;">
+
+
+                            <button class="btn btn-outline-info"
+                                    style="width:47px; height:45px; "
+                                    onclick="window.location.href='@Url.Action("Edit", "Task", new { id = item.Id })'">
+                                <i class="bi bi-pencil p-1" style="font-size:0.8rem"></i>
+
+                            </button>
+
+                            <button class="btn btn-outline-warning"
+                                    style="width:47px; height:45px;"
+                                    onclick="window.location.href='@Url.Action("Details", "Task", new { id = item.Id })'">
+                                <i class="bi bi-file-earmark-zip p-1" style="font-size:0.8rem"></i>
+
+                            </button>
+
+                            <button class="btn btn-outline-danger"
+                                    style="width:47px; height:45px;"
+                                    onclick="window.location.href='@Url.ActionLink("Delete","Task",new { id = item.Id })'">
+                                <i class="bi bi-trash p-1" style="font-size:0.8rem"></i>
+
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="6" class="text-center">Não há tarefas registradas.</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

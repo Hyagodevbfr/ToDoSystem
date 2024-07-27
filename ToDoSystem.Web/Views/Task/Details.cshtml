@@ -1,0 +1,121 @@
+﻿@using ToDoSystem.Dtos.Task
+@using ToDoSystem.Enums
+@model ToDoSystem.Dtos.Task.TaskResponseDto
+
+@{
+    ViewData["Title"] = "Detalhes da tarefa";
+}
+<div class="container" style="width: 75%;">
+    <h1 class="container d-flex justify-content-center">Detalhes - @Model.Name</h1>
+
+    <hr />
+    <div class="form-group btn-box d-flex flex-column justify-content-center mt-3" style="width:50%; margin: 0 auto; padding: 0;">
+        <div style=" border: 0.5px solid #bababa; display:flex; flex-direction:column; justify-content:center">
+
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-2">
+                        <strong>Tarefa</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+                </div>
+
+            </dl>
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-2">
+                        <strong>Descrição</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.TextAreaFor(model => model.Description,new { @class = "form-control",rows = 5,@readonly = "readonly" })
+                    </dd>
+                </div>
+
+            </dl>
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-2">
+                        <strong>Andamento</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        @if(Model.Status == StatusTask.ToDo)
+                        {
+                            <span>A fazer</span>
+                        }
+                        else if(Model.Status == StatusTask.InProgress)
+                        {
+                            <span>Prosseguindo</span>
+                        }
+                        else if(Model.Status == StatusTask.Concluded)
+                        {
+                            <span>Concluída</span>
+                        }
+                    </dd>
+                </div>
+            </dl>
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-2">
+                        <strong>Concluída</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        
+                        @if(Model.IsCompleted == true)
+                        {
+                            <span class="completed-checkbox-wrapper">&#x2705;</span>
+                        }
+                        else
+                        {
+                            <input type="checkbox" disabled="disabled" />
+                        }
+                    </dd>
+                </div>
+
+            </dl>
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-4">
+                        <strong>Data de criação</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.CreatedAt)
+                    </dd>
+                </div>
+
+            </dl>
+
+            <dl class="row container col-md-4" style="width:100%; display:flex; justify-content:center; margin: 0 auto;">
+                <div class="col-sm-12">
+                    <dt class="col-sm-5">
+                        <strong>Data de conlusão</strong>
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.CompletedAt)
+                    </dd>
+                </div>
+
+            </dl>
+        </div>
+
+        <div class="form-group btn-box d-flex justify-content-center" style="width:100%; margin-top:1rem;">
+            <button class="btn btn-success"
+                    type="button"
+                    style="width:300px; margin-right:65px;"
+                    onclick="window.location.href='@Url.Action("Edit", "Task", new TaskPutDto { Id = Model.Id })'">
+                <i class="bi bi-pencil p-1" style="font-size:0.8rem"></i>
+                Editar
+                </button>
+            
+            <a class="btn btn-outline-info" asp-controller="Task" asp-action="Index" style="width:300px;"><i class="bi bi-arrow-left-circle p-1"></i>Voltar</a>
+        </div>
+
+
+    </div>
+</div>
