@@ -163,7 +163,7 @@ public class TaskController: Controller
         catch(Exception ex)
         {
             TempData["errorMessage"] = ex.Message;
-            return View( );
+            return RedirectToAction("Index");
         }
     }
     [HttpPost, ActionName("Delete")]

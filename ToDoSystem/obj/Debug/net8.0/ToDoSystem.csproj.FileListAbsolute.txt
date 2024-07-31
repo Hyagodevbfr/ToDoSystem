@@ -135,3 +135,4 @@ C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem\obj\Debug\net8.0\refint\ToDoSy
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem\obj\Debug\net8.0\ToDoSystem.pdb
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem\obj\Debug\net8.0\ToDoSystem.genruntimeconfig.cache
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem\obj\Debug\net8.0\ref\ToDoSystem.dll
+C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem\obj\Debug\net8.0\ToDoSystem.sourcelink.json

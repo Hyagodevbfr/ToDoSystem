@@ -87,6 +87,6 @@ public class TasksController: ControllerBase
     public async Task<ActionResult<TarefaModel>> DeleteTask(Guid id)
     {
         var deletedTask = await _task.DeleteTask(id);
-        return Ok(deletedTask);
+        return Ok();
     }
 }

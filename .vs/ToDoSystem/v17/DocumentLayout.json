@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|solutionrelative:todosystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem.web\\models\\task\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|solutionrelative:todosystem.web\\models\\task\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|solutionrelative:todosystem\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem\\controllers\\task\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem\\services\\task\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|solutionrelative:todosystem\\services\\task\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA32100-260B-4171-A08D-3E8BE70896CF}|ToDoSystem.Web\\ToDoSystem.Web.csproj|solutionrelative:todosystem.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|c:\\users\\hyago\\source\\repos\\todosystem\\todosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB3EA0A5-957C-4E4C-B250-BB5A545524B4}|ToDoSystem\\ToDoSystem.csproj|solutionrelative:todosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ToDoSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ToDoSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T17:34:05.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Services\\Task\\TaskService.cs",
-              "RelativeDocumentMoniker": "ToDoSystem\\Services\\Task\\TaskService.cs",
-              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Services\\Task\\TaskService.cs",
-              "RelativeToolTip": "ToDoSystem\\Services\\Task\\TaskService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAALAAAA",
+              "Title": "TarefaModel.cs",
+              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Models\\TarefaModel.cs",
+              "RelativeDocumentMoniker": "ToDoSystem\\Models\\TarefaModel.cs",
+              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Models\\TarefaModel.cs",
+              "RelativeToolTip": "ToDoSystem\\Models\\TarefaModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T16:57:56.986Z",
+              "WhenOpened": "2024-07-27T22:14:35.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Services\\Task\\TaskService.cs",
+              "RelativeDocumentMoniker": "ToDoSystem\\Services\\Task\\TaskService.cs",
+              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Services\\Task\\TaskService.cs",
+              "RelativeToolTip": "ToDoSystem\\Services\\Task\\TaskService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T22:15:05.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Controllers\\Task\\TasksController.cs",
               "RelativeDocumentMoniker": "ToDoSystem\\Controllers\\Task\\TasksController.cs",
               "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Controllers\\Task\\TasksController.cs",
               "RelativeToolTip": "ToDoSystem\\Controllers\\Task\\TasksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAZAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T16:57:37.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Models\\Task\\TaskViewModel.cs",
-              "RelativeDocumentMoniker": "ToDoSystem.Web\\Models\\Task\\TaskViewModel.cs",
-              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Models\\Task\\TaskViewModel.cs",
-              "RelativeToolTip": "ToDoSystem.Web\\Models\\Task\\TaskViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T16:56:09.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "ToDoSystem.Web\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem.Web\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "ToDoSystem.Web\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAWwEEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T16:52:18.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ToDoSystem\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hyago\\source\\repos\\ToDoSystem\\ToDoSystem\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ToDoSystem\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-27T16:49:47.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T22:14:53.784Z"
             }
           ]
         }

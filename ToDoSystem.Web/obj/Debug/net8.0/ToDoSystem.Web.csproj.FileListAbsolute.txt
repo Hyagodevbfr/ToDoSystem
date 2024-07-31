@@ -260,3 +260,4 @@ C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem.Web\obj\Debug\net8.0\refint\To
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem.Web\obj\Debug\net8.0\ToDoSystem.Web.pdb
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem.Web\obj\Debug\net8.0\ToDoSystem.Web.genruntimeconfig.cache
 C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem.Web\obj\Debug\net8.0\ref\ToDoSystem.Web.dll
+C:\Users\hyago\source\repos\ToDoSystem\ToDoSystem.Web\obj\Debug\net8.0\ToDoSystem.Web.sourcelink.json
